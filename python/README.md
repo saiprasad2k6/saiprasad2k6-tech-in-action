@@ -1,4 +1,4 @@
-### Common Workflow
+### Workflow
 
 1. **Initial Setup:**
    ```bash
@@ -11,16 +11,10 @@
    ```bash
    source venv/bin/activate
    # Run your Python programs
-   python script.py
+   streamlit run streamlit-app.py  
    ```
 
-3. **Adding New Dependencies:**
-   ```bash
-   pip install new_package
-   pip freeze > requirements.txt
-   ```
-
-4. **End of Session:**
+3. **End of Session:**
    ```bash
    deactivate
    ```
